@@ -7,7 +7,9 @@ class AddCredentials:
         self.get_response = get_response
 
     def __call__(self, request):
-        if request.content_type == 'application/json' and request.path.__contains__('/o/token/'):
+        check = request.method == 'POST' and request.content_type == 'application/json' and request.path.__contains__(
+            '/o/token/')
+        if check:
             try:
                 # json body -> python dict
                 body = json.loads(request.body)
