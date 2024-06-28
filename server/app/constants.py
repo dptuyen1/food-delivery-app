@@ -1,10 +1,10 @@
-CLIENT_ID = 'd8iqmfQrMQ6UQRaHWz0RJN2H8Gs0JRmiSeD7pH7O'
-CLIENT_SECRET = 'QYnWpVac8xbbUZHf6nLY6dEtfaPzICNSjgHo3qQLY3fTnpJKAsOHdMb18ppVAloCDqEzOKPF6YXMnwJfkKB43YfXR7YtRLyMcnHlLyVbALTjEKDd5cRstDDAqtZtdpeo'
+CLIENT_ID = your-client-id
+CLIENT_SECRET = your-client-secret
 GRANT_TYPE = 'password'
 
-CLOUD_NAME = 'db5yvdd9t'
-API_KEY = '521942973912725'
-API_SECRET = 'JCoM75UZQ7KbbBH6r8_iz0lhVGU'
+CLOUD_NAME = your-cloud-name
+API_KEY = your-api-key
+API_SECRET = your-api-secret
 
-EMAIL = 'doannganhit02@gmail.com'
-PASSWORD = 'xvuvtrvrjmgggsxk'
+EMAIL = your-email
+PASSWORD = your-password

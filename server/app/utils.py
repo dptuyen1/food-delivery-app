@@ -14,11 +14,11 @@ from app import constants
 def momo_payment(amount):
     endpoint = "https://test-payment.momo.vn/v2/gateway/api/create"
     partnerCode = "MOMO"
-    accessKey = "F8BBA842ECF85"
-    secretKey = "K951B6PE1waDMi640xX08PD3vg6EkVlz"
-    orderInfo = "pay with MoMo"
-    redirectUrl = "https://webhook.site/b3088a6a-2d17-4f8d-a383-71389a6c600b"
-    ipnUrl = "https://webhook.site/b3088a6a-2d17-4f8d-a383-71389a6c600b"
+    accessKey = your-access-key
+    secretKey = your-secret-key
+    orderInfo = optional
+    redirectUrl = optional
+    ipnUrl = optional
     amount = str(amount)
     orderId = str(uuid.uuid4())
     requestId = str(uuid.uuid4())
